@@ -1,0 +1,82 @@
+.box {
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.bigBox {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(59, 41, 119);
+
+}
+
+.title {
+
+    color: rgb(59, 41, 119);
+    font-weight: 600;
+    padding-left: 20px;
+
+}
+
+.header {
+    padding-left: 20px;
+
+
+    cursor: pointer;
+
+}
+
+input {
+    width: 26rem;
+    border-radius: 30px;
+    background-color: rgba(40, 38, 38, 0.091);
+    border-style: none;
+    position: relative
+
+
+
+}
+
+.addBtn {
+    width: 110px;
+    border-radius: 30px;
+    background-color: rgb(231, 58, 58);
+    color: white;
+    position: absolute;
+    right:731px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.p-1 {
+    padding: 20px 15px;
+
+
+}
+.todoList{
+    gap: 5px;
+}
+
+.todoList li{
+    background-color: black;
+    color: white;
+    list-style-type: none;
+    position: relative;
+    padding: 10px;
+    margin-right: 28px;
+    border-radius: 5px;
+
+}
+ .todoList li .icon{
+    position: absolute;
+    right: 4px;
+top: 5px;
+
+} 
